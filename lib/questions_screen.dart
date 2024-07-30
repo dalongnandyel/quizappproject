@@ -62,7 +62,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
                 const SizedBox(height: 20), // Add vertical spacing
               ],
             );
-          }).toList(),
+          }),
         ],
       ),
       // ),

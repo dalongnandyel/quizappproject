@@ -16,7 +16,7 @@ class AnswerButton extends StatelessWidget {
       onPressed: onTap,
       style: ButtonStyle(
         fixedSize: WidgetStateProperty.all(
-            Size(300, 60)), // Adjust width and height as needed
+            const Size(300, 60)), // Adjust width and height as needed
         backgroundColor:
             WidgetStateProperty.all(const Color.fromARGB(255, 33, 1, 95)),
         foregroundColor: WidgetStateProperty.all(Colors.white),
